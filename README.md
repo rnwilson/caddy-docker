@@ -6,7 +6,6 @@ This image include dynamic plugins configuration.
 
 ## Build
 ```
-export CADDY_PLUGINS="http.ratelimit,http.cache,http.expires,http.timeout"
 docker build .
 ```
 
